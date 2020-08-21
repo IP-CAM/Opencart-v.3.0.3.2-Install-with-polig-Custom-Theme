@@ -1,0 +1,121 @@
+{#<footer>#}
+{#  <div class="container">#}
+{#    <div class="row">#}
+{#      {% if informations %}#}
+{#      <div class="col-sm-3">#}
+{#        <h5>{{ text_information }}</h5>#}
+{#        <ul class="list-unstyled">#}
+{#         {% for information in informations %}#}
+{#          <li><a href="{{ information.href }}">{{ information.title }}</a></li>#}
+{#          {% endfor %}#}
+{#        </ul>#}
+{#      </div>#}
+{#      {% endif %}#}
+{#      <div class="col-sm-3">#}
+{#        <h5>{{ text_service }}</h5>#}
+{#        <ul class="list-unstyled">#}
+{#          <li><a href="{{ contact }}">{{ text_contact }}</a></li>#}
+{#          <li><a href="{{ return }}">{{ text_return }}</a></li>#}
+{#          <li><a href="{{ sitemap }}">{{ text_sitemap }}</a></li>#}
+{#        </ul>#}
+{#      </div>#}
+{#      <div class="col-sm-3">#}
+{#        <h5>{{ text_extra }}</h5>#}
+{#        <ul class="list-unstyled">#}
+{#          <li><a href="{{ manufacturer }}">{{ text_manufacturer }}</a></li>#}
+{#          <li><a href="{{ voucher }}">{{ text_voucher }}</a></li>#}
+{#          <li><a href="{{ affiliate }}">{{ text_affiliate }}</a></li>#}
+{#          <li><a href="{{ special }}">{{ text_special }}</a></li>#}
+{#        </ul>#}
+{#      </div>#}
+{#      <div class="col-sm-3">#}
+{#        <h5>{{ text_account }}</h5>#}
+{#        <ul class="list-unstyled">#}
+{#          <li><a href="{{ account }}">{{ text_account }}</a></li>#}
+{#          <li><a href="{{ order }}">{{ text_order }}</a></li>#}
+{#          <li><a href="{{ wishlist }}">{{ text_wishlist }}</a></li>#}
+{#          <li><a href="{{ newsletter }}">{{ text_newsletter }}</a></li>#}
+{#        </ul>#}
+{#      </div>#}
+{#    </div>#}
+{#    <hr>#}
+{#    <p>{{ powered }}</p>#}
+{#  </div>#}
+{#</footer>#}
+{#{% for script in scripts %}#}
+{#<script src="{{ script }}" type="text/javascript"></script>#}
+{#{% endfor %}#}
+{#<!--#}
+{#OpenCart is open source software and you are free to remove the powered by OpenCart if you want, but its generally accepted practise to make a small donation.#}
+{#Please donate via PayPal to donate@opencart.com#}
+{#//-->#}
+{#</body></html>#}
+</div>
+
+<footer class="footer">
+  <div class="container">
+    <div class="df" >
+
+      <ul class="footer_menu">
+        <li>Главное меню</li>
+        <li>
+          <a href="/">Главная</a>
+        </li>
+        <li>
+          <a href="{{ catalog }}">Каталог</a>
+        </li>
+        <li>
+          <a href="{{ service }}">Доставка</a>
+        </li>
+        <li>
+          <a href="{{ news }}">Новости</a>
+        </li>
+        <li>
+          <a href="{{ contact }}">Контакты</a>
+        </li>
+      </ul>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d20309.075323923767!2d30.4721233!3d50.4851493!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1569270986325!5m2!1sru!2sua" width="755" height="511" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+      <div>
+        <ul class="footer_time">
+          <li>График работы</li>
+          <li>
+            <a href="#">10:00 − 20:00</a>
+          </li>
+          <li>
+            <a href="#">10:00 − 20:00</a>
+          </li>
+          <li>
+            <a href="#">10:00 − 20:00</a>
+          </li>
+          <li>
+            <a href="#">10:00 − 20:00</a>
+          </li>
+          <li>
+            <a href="#">10:00 − 20:00</a>
+          </li>
+          <li>
+            <a href="#">10:00 − 20:00</a>
+          </li>
+          <li>
+            <a href="#">10:00 − 20:00</a>
+          </li>
+        </ul>
+        <ul class="footer_adress">
+          <li>Телефон для связи</li>
+          <li>8 (831) 416-01-40</li>
+          <li>8 (831) 413-37-91</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+</div>
+</div>
+<script src="{{ theme_url }}/js/jquery-3.4.1.min.js"></script>
+<script src="{{ theme_url }}/js/slick.min.js"></script>
+<script src="{{ theme_url }}/js/slick.js"></script>
+<script src="{{ theme_url }}/js/scripts.js"></script>
+{#<script src="catalog/view/javascript/bootstrap/js/bootstrap.js" type="text/javascript"></script>#}
+
+</body>
+</html>	

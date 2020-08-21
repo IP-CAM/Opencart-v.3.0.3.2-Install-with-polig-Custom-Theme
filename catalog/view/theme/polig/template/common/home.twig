@@ -1,0 +1,100 @@
+{{ header }}
+{#<div id="common-home" class="container">#}
+{#  <div class="row">{{ column_left }}#}
+{#    {% if column_left and column_right %}#}
+{#    {% set class = 'col-sm-6' %}#}
+{#    {% elseif column_left or column_right %}#}
+{#    {% set class = 'col-sm-9' %}#}
+{#    {% else %}#}
+{#    {% set class = 'col-sm-12' %}#}
+{#    {% endif %}#}
+{#    <div id="content" class="{{ class }}">{{ content_top }}{{ content_bottom }}</div>#}
+{#    {{ column_right }}</div>#}
+{#</div>#}
+<section class="slide_dell {% if is_home or is_catalogs  or is_news or is_posts or is_contacts== true %}layout_check{% else %}{% endif %}">
+  <div class="container_fix">
+    <div class="slider">
+      <div>
+        <div class="slider_layer"></div>
+        <img src="{{theme_url}}/images/slide_img.jpg" alt="slide" class="slider_img">
+        <div class="slider_title">
+          <div class="slider_logo">
+            <h2 class="slider_title">Полигон 52 − <br> официальный диллер в России</h2>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="slider_layer"></div>
+        <img src="{{theme_url}}/images/slide_img.jpg" alt="slide" class="slider_img">
+        <div class="slider_title">
+          <div class="slider_logo">
+            <h2 class="slider_title">Полигон 52 − <br> официальный диллер в России</h2>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="slider_layer"></div>
+        <img src="{{theme_url}}/images/slide_img.jpg" alt="slide" class="slider_img">
+        <div class="slider_title">
+          <div class="slider_logo">
+            <h2 class="slider_title">Полигон 52 − <br> официальный диллер в России</h2>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="slider_layer"></div>
+        <img src="{{theme_url}}/images/slide_img.jpg" alt="slide" class="slider_img">
+        <div class="slider_title">
+          <div class="slider_logo">
+            <h2 class="slider_title">Полигон 52 − <br> официальный диллер в России</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="product_dell {% if is_home or is_catalogs  or is_news or is_posts or is_contacts== true %}layout_check{% else %}{% endif %}">
+  <div class="container">
+    <h2 class="title_about">Хиты продаж</h2>
+    <div class="product_wrap product_wrap-fix">
+      {{ content_top }}
+
+    </div>
+    <h2 class="title_about">Акция!</h2>
+    <div class="product_wrap">
+      <div class="product">
+        <img src="{{ theme_url }}/images/product_img2.png" alt="" class="product_img product_img2">
+        <p class="product_price">12900</p>
+        <div class="prod_opdell">
+          <p class="product_title">Страйкбольный автомат НПО АЕГ</p>
+          <p class="product_desc">АС «ВАЛ» 17 серия</p>
+        </div>
+      </div>
+      <div class="product">
+        <img src="{{ theme_url }}/images/product_img2.png" alt="" class="product_img product_img2">
+        <p class="product_price">12900</p>
+        <div class="prod_opdell">
+          <p class="product_title"> PRABOS Jungle Bundeswehr</p>
+          <p class="product_desc"> PRABOS Jungle Bundeswehr</p>
+        </div>
+      </div>
+      <div class="product">
+        <img src="{{ theme_url }}/images/product_img2.png" alt="" class="product_img product_img2">
+        <p class="product_price">12900</p>
+        <div class="prod_opdell">
+          <p class="product_title">Страйкбольный автомат НПО АЕГ</p>
+          <p class="product_desc">АС «ВАЛ» 17 серия</p>
+        </div>
+      </div>
+      <div class="product">
+        <img src="{{ theme_url }}/images/product_img2.png" alt="" class="product_img product_img2">
+        <p class="product_price">12900</p>
+        <div class="prod_opdell">
+          <p class="product_title">Страйкбольный автомат НПО АЕГ</p>
+          <p class="product_desc">АС «ВАЛ» 17 серия</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ footer }}
